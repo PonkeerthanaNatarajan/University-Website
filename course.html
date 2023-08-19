@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title> University Website Design - Easy Tutorials</title>
+        <link rel="stylesheet" href="style1.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="D:\APPS\UNIVERSITY PROJECT\eduford_img\logo.png"></a>
+                <div class="nav-links" id="navlinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="course.html">COURSE</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars"  onclick="showMenu()"></i>
+            </nav>
+            <h1>Our Courses</h1>
+
+
+        </section>
+<!--------------------------About U s Content------------------------------>
+
+<!------------------------Course------------------------------------>
+<section class="course">
+    <h1>Courses We Offer</h1>
+    <p>TECH is the world's largest university, with the most extensive range of educational programs </p>
+    <div class="row">
+        <div class="course-col">
+            <h3>Intermediate</h3>
+            <p>Intermediate is the second level exam, of a course in India.
+                 It has eight subjects and over 7000 pages of study material that a student is expected to cover in the nine months study period allotted to them.
+                 The group system is what makes this exam even more difficult, as a group consists of four subjects, and a candidate has to pass all four papers in order to clear the group.</p>
+        </div>
+        <div class="course-col">
+            <h3>Degree</h3>
+            <p>A masters degree is one of the most common postgraduate courses completed after undergraduate study. 
+                This postgraduate qualification can take a number of different forms, but what they all have in common is that they usually require an undergraduate degree to gain entry. 
+                These forms of postgraduate degree include:Masters of Arts (MA), Masters of Science (MSc)</p>
+        </div>
+        <div class="course-col">
+            <h3>Postgraduate</h3>
+            <p>A postgraduate degree is a type of qualification that is completed after an undergraduate degree. 
+                Postgraduate degrees encompass a range of qualifications, including masters degrees, Postgraduate Diplomas and Certificates, and PhDs.
+                There are a lot of different aspects involved in postgraduate education. If you are considering expanding your knowledge with a postgraduate degree, it’s important to understand the details.</p>
+        </div>
+    </div>
+</section>
+<!--------------------------Facilities------------------------------>
+<section class="facilities">
+    <h1>Our Facilities</h1>
+        <p>TECH is the world's largest university, with the most extensive range of educational programs</p>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="D:\APPS\UNIVERSITY PROJECT\eduford_img\library.png">
+                    <h3>World Class Library</h3>
+                    <p>In the library, there are a collection of materials,books or media that are accessible for educational and research purpose for the students</p>
+                </div>
+                <div class="facilities-col">
+                    <img src="D:\APPS\UNIVERSITY PROJECT\eduford_img\basketball.png">
+                        <h3>Largest Playground</h3>
+                        <p>A playground,playpark, or play area ehich is designed to provide an environment that facilitates play,typically both indoors and outdoors </p>
+                </div>
+                <div class="facilities-col">
+                        <img src="D:\APPS\UNIVERSITY PROJECT\eduford_img\cafeteria.png">
+                            <h3>Tasty and Healthy Food</h3>
+                            <p>Tasty and Healthy Food is a  cafeteria,a type of food service location which offer quality as well as quantity food ,within the institution</p>
+                </div>
+            </div>
+    </section>
+
+
+<!--------------------------Footer------------------------------>
+<section class="footer">
+    <h4>About Us</h4>
+    <p>TECH is the world's largest university, with the most extensive range of educational programs.<br>The World's Biggest University.
+       
+    </p>
+    <div class="icons">
+        <i class="fa fa-facebook" ></i>    
+        <i class="fa fa-twitter" ></i>
+        <i class="fa fa-instagram" ></i>
+        <i class="fa fa-linkedin" ></i>
+    </div>
+<p>Made with <i class="fa fa-heart-o" ></i> by TECH University</p></section>
+
+<!------------------------JavaScript for Toggle Menu------------------------------------>
+        <script>
+            var navlinks = document.getElementById("navlinks");
+            function showMenu(){
+                navlinks.style.right ="0";
+            }
+            function hideMenu(){
+                navlinks.style.right ="-200px";
+            }
+        </script>
+    </body>
+</html>
